@@ -7,7 +7,9 @@ MnistをStackedAutoencoderで学習します．
     $python SdA.py -g 0
 
 層の構造を変える時はSdA.pyの77行目  
+```
     77     lsizes=[784,50,50,10]`
+```
 これを変えるだけでOKです．  
 net.pyを変える必要はありません．  
 層の活性化関数はsigmoidを使っているので，変えたい場合は`
