@@ -4,7 +4,7 @@ chainerで何かとやりづらいStackedAutoencoderを作りました．
 MnistをStackedAutoencoderで学習します．  
 でもぶっちゃけ精度が良くなったりとかはしません．  
 ##実行
-    python SdA.py -g 0
+    $python SdA.py -g 0
 
 層の構造を変える時はSdA.pyの77行目  
     77     lsizes=[784,50,50,10]`
